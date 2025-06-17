@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mateo De Lucca - Mi Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+</head>
+<body>
+    <!-- Navbar -->     
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">Mateo De Lucca</a>
+            <ul class="nav-links">
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><button id="tema-btn" class="tema-toggle">🌙</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Principal -->
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1>Mateo De Lucca</h1>
+            <p class="subtitulo">Estudiante de Programación</p>
+            <p class="descripcion">Aprendiendo a crear sitios web y programas geniales con HTML, CSS, JavaScript y Python.</p>
+            <div class="botones-hero">
+                <a href="#contacto" class="boton boton-principal">Contactarme</a>
+                <a href="#" class="boton boton-secundario" id="descargar-cv">
+                    <i class="fas fa-download"></i> Mi CV
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sobre mí -->
+        <section id="sobre-mi" class="seccion">
+            <div class="contenedor">
+                <h2>Sobre mí</h2>
+                <div class="sobre-mi-content-centrado">
+                    <div class="texto-sobre-mi-centrado">
+                        <p>¡Hola! Soy Mateo, tengo 16 años y estoy cursando 4to año de secundaria en el instituto Luis A.Huergo. Me encanta la programación y estoy aprendiendo desarrollo web.</p>
+                        <p>Empecé con HTML y CSS hace un par de meses, y ahora estoy explorando JavaScript. Mi objetivo es el de conocer lo maximo posible para convertirme en un programador lo mas completo que pueda.</p>
+                        <p>En mi tiempo libre me gusta hacer proyectos personales, ver tutoriales de programación y jugar videojuegos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="habilidades" class="seccion seccion-gris">
+            <div class="contenedor">
+                <h2>Mis Habilidades</h2>
+                <div class="habilidades-grid">
+                    <div class="habilidad-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="habilidad-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="habilidad-item">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="habilidad-item">
+                        <div class="photoshop-icon">Ps</div>
+                        <span>Photoshop</span>
+                    </div>
+                    <div class="habilidad-item">
+                        <i class="fas fa-database"></i>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="habilidad-item">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section id="proyectos" class="seccion">
+            <div class="contenedor">
+                <h2>Mis Proyectos</h2>
+                <div class="proyectos-grid">
+                    <div class="proyecto-card">
+                        <div class="proyecto-info">
+                            <h3>Space Invaders</h3>
+                            <p>Desarrollado en Python. Una versión personal de este popular juego de la década de los 80's.</p>
+                            <div class="proyecto-links">
+                                <a href="https://github.com/MDeLuccaFerreiro/Space-Invaders" target="_blank" class="proyecto-link">
+                                    <i class="fab fa-github"></i> Código
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="proyecto-card">
+                        <div class="proyecto-info">
+                            <h3>Stick Brawl</h3>
+                            <p>Juego de peleas desarrollado en Python. Un emocionante juego de combate con personajes tipo stick.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="seccion seccion-gris">
+            <div class="contenedor">
+                <h2>Contacto</h2>
+                <div class="contacto-content">
+                    <div class="contacto-info">
+                        <h3>¡Hablemos!</h3>
+                        <p>Si querés contactarme para algún proyecto o simplemente charlar sobre programación, no dudes en escribirme.</p>
+                        <div class="contacto-links">
+                            <a href="mailto:mateo.delucca@ejemplo.com" class="contacto-link">
+                                <i class="fas fa-envelope"></i>
+                                mateodeluccaferreiro@gmail.com
+                            </a>
+                            <a href="https://github.com/MDeLuccaFerreiro" class="contacto-link">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                            <button class="contacto-link" id="linkedin-btn">
+                                <i class="fab fa-linkedin"></i>
+                                LinkedIn
+                            </button>
+                        </div>
+                    </div>
+                    <form class="formulario-contacto" id="formulario">
+                        <div class="form-grupo">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-grupo">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-grupo">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="boton boton-principal">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <p>&copy; 2025 Mateo De Lucca. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
