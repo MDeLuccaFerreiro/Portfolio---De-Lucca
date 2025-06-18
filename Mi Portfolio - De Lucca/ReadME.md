@@ -34,7 +34,6 @@ El sitio web incluye información sobre mí, mis proyectos realizados, habilidad
 
 1. Descargar todos los archivos
 2. Abrir `index.html` en cualquier navegador web
-3. ¡Listo!
 
 ## Contacto
 
